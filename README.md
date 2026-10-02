@@ -97,3 +97,141 @@ Alternatively, set the complete connection URL using `DATABASE_URL` environment 
 ```bash
 set DATABASE_URL=mysql+pymysql://username:password@host:port/database_name
 ```
+
+
+
+<!-- 
+
+========================================
+MEDICONNECT HOSPITAL MANAGEMENT SYSTEM
+========================================
+
+PROJECT PATH:
+C:\Users\ATHARV RAUT\OneDrive\Desktop\Operations\hospital-management-system
+
+
+========== KAL WEBSITE RUN KARNE KE STEPS ==========
+
+1. PowerShell kholo
+
+2. Project folder:
+cd "C:\Users\ATHARV RAUT\OneDrive\Desktop\Operations\hospital-management-system"
+
+3. Virtual environment:
+& "..\.venv\Scripts\Activate.ps1"
+
+4. MySQL settings:
+$env:DB_USER="root"
+$env:DB_PASSWORD="YOUR_MYSQL_PASSWORD"
+$env:DB_HOST="localhost"
+$env:DB_PORT="3306"
+$env:DB_NAME="mediconnect_db"
+
+5. Flask start:
+python run.py
+
+6. Browser:
+http://127.0.0.1:5000
+
+
+========== CURRENT DATABASE ==========
+
+Database:
+mediconnect_db
+
+MySQL:
+localhost
+Port: 3306
+
+IMPORTANT:
+schema.sql dobara run NAHI karna.
+Existing database/data ko delete NAHI karna.
+
+
+========== CURRENT LOGIN ACCOUNTS ==========
+
+1. SUPER ADMIN
+Role:
+SuperAdmin
+
+Email:
+admin@mediconnect.com
+
+Password:
+admin123
+
+
+2. HOSPITAL ADMIN
+Role:
+Hospital Admin
+
+Name:
+Rahul Sharma
+
+Email:
+admin@mediconnect-demo.com
+
+Password:
+Rahul@123
+
+Hospital:
+MediConnect Demo Hospital
+
+Registration ID:
+MC-DEMO-001
+
+
+========== HOSPITAL DETAILS ==========
+
+Hospital Name:
+MediConnect Demo Hospital
+
+Registration / License Number:
+MC-DEMO-001
+
+Hospital Type:
+Private
+
+Address:
+Pimpri Main Road, Demo Area
+
+State:
+Maharashtra
+
+District:
+Pune
+
+City:
+Pimpri
+
+Website:
+https://mediconnect-demo.com
+
+Hospital Email:
+admin@mediconnect-demo.com
+
+Hospital Contact:
+9876543210
+
+
+========== IMPORTANT ==========
+
+PowerShell window band mat karna
+jab tak website use kar rahe ho.
+
+Server stop karne ke liye:
+Ctrl + C
+
+Next day:
+upar diye hue steps se sirf server start karna hai.
+
+Database already bana hua hai.
+Hospital already registered/approved hai.
+Hospital Admin credentials already create kiye hain. -->
+
+
+
+
+
+
+<!-- Run Camand start program-> cmd /k ".\start.bat" -->
